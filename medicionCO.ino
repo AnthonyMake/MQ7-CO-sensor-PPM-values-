@@ -12,6 +12,7 @@ void setup() {
 
 
 void loop() {
+  Serial.println("Calentando el sensor");
   for(int i=0;i<=t5v;i++){
      delay(999);
      Serial.print(".");
